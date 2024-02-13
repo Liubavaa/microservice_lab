@@ -1,0 +1,9 @@
+GET http://localhost:8080/get_messages
+Accept: text/html
+###
+
+POST http://localhost:8080/post_message
+Content-Type: application/json
+
+"msg2"
+###
